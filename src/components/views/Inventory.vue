@@ -45,7 +45,7 @@ export default {
                 setTimeout(function(){
                     self.$store.commit('setInventory',response.data)
                     self.loading=false
-                },3000)
+                },5000)
 
             })
         }
